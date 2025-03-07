@@ -100,7 +100,7 @@ body {
   }
 
   .gradient-title{
-    @apply bg-gradient-to-b from-gray-300 via-indigo-200 to-slate-400 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-emerald-400 via-green-500 to-lime-500 bg-clip-text text-transparent;
   }
 }
 
