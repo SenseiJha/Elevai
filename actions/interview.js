@@ -111,7 +111,7 @@ export async function saveQuizResult(questions, answers, score) {
   }
 
   try {
-    const assessment = await db.assessments.create({
+    const assessment = await db.assessment.create({
       data: {
         userId: user.id,
         quizScore: score,
@@ -139,7 +139,7 @@ export async function getAssessments() {
   if (!user) throw new Error("User not found");
 
   try {
-    const assessments = await db.assessments.findMany({
+    const assessments = await db.assessment.findMany({
       where: {
         userId: user.id,
       },
