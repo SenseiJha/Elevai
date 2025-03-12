@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
           {/* footers */}
           <footer className="bg-muted">
           <div className="container mx-auto px-4 text-center text-gray-200">
-            <p>Made by Sensei_Jha</p>
+            <p>Made by Group-M13</p>
           </div>
           </footer>
         </ThemeProvider>
