@@ -71,38 +71,75 @@ body {
   }
 }
 
-.grid-background{
+@keyframes color-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.grid-background {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, rgba(214,203,244,0.1) 1px,transparent 1px),
-  linear-gradient(to bottom, rgba(54, 63, 5, 0.4) 1px,transparent 1px);
-  background-size: 50px 50px;
-  pointer-events: none;
+  background: linear-gradient(270deg, #16a085, #2980b9, #8e44ad, #f39c12, #e74c3c);
+  background-size: 400% 400%;
+  animation: color-flow 10s infinite ease-in-out;
   z-index: -1;
 }
 
-.grid-background::before{
+.grid-background::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle, transparent, rgba(0,0,0,0.9)),
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+              linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 50px 50px;
+  pointer-events: none;
 }
 
 @layer utilities {
-  .gradient{
-    @apply bg-gradient-to-b from-gray-400 via-gray-200 to-gray-600;
+  .gradient {
+    background: linear-gradient(270deg,
+      #1b3b5f, /* Deep blue-gray */
+      #166534, /* Rich emerald green */
+      #ff4500, /* Vivid adrenaline-fueled orange */
+      #9b59b6, /* Warm, creative purple */
+      #ff6b6b, /* Oxytocin-fueled soft red */
+      #f4d03f, /* Energetic golden yellow */
+      #2c3e50  /* Classic dark blue-gray */
+    );
+    background-size: 400% 400%;
+    animation: color-flow 10s infinite ease-in-out;
+    @apply bg-clip-text text-transparent;
   }
 
-  .gradient-title{
-    @apply bg-gradient-to-r from-emerald-400 via-green-500 to-lime-500 bg-clip-text text-transparent;
+  .gradient-title {
+    background: linear-gradient(270deg,
+      #1b3b5f,
+      #166534,
+      #ff4500,
+      #9b59b6,
+      #ff6b6b,
+      #f4d03f,
+      #2c3e50
+    );
+    background-size: 400% 400%;
+    animation: color-flow 10s infinite ease-in-out;
+    @apply bg-clip-text text-transparent;
   }
 }
+
 
 .hero-image-wrapper{
   perspective: 1000px;
