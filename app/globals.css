@@ -108,16 +108,16 @@ body {
   pointer-events: none;
 }
 
-@layer utilities {
+@layer utilities { 
   .gradient {
     background: linear-gradient(270deg,
-      #1b3b5f, /* Deep blue-gray */
-      #166534, /* Rich emerald green */
-      #ff4500, /* Vivid adrenaline-fueled orange */
-      #9b59b6, /* Warm, creative purple */
-      #ff6b6b, /* Oxytocin-fueled soft red */
-      #f4d03f, /* Energetic golden yellow */
-      #2c3e50  /* Classic dark blue-gray */
+      #0d0d0d, /* Deep Black - Cyber Sleek */
+      #1a1aff, /* Electric Blue - Digital Cool */
+      #ff007f, /* Hyper Pink - Playful & Bold */
+      #ffd900, /* Neon Yellow - High Energy */
+      #00ffcc, /* Cyber Aqua - Futuristic Glow */
+      #ff4500, /* Lava Orange - Fiery Impact */
+      #8d00ff  /* Vivid Violet - Creative Edge */
     );
     background-size: 400% 400%;
     animation: color-flow 10s infinite ease-in-out;
@@ -126,19 +126,20 @@ body {
 
   .gradient-title {
     background: linear-gradient(270deg,
-      #1b3b5f,
-      #166534,
-      #ff4500,
-      #9b59b6,
-      #ff6b6b,
-      #f4d03f,
-      #2c3e50
+      #ff1493, /* Hot Pink - Contrasts Deep Black */
+      #ffea00, /* Cyber Gold - Opposite of Electric Blue */
+      #00ffff, /* Neon Cyan - Pops against Hyper Pink */
+      #ff00ff, /* Magenta - The flip side of Neon Yellow */
+      #ff5733, /* Fiery Coral - Juxtaposes Cyber Aqua */
+      #00ff00, /* Bright Lime - Opposite of Lava Orange */
+      #0000ff  /* Pure Blue - A punchy contrast to Vivid Violet */
     );
     background-size: 400% 400%;
     animation: color-flow 10s infinite ease-in-out;
     @apply bg-clip-text text-transparent;
   }
 }
+
 
 
 .hero-image-wrapper{
