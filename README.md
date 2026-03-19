@@ -1,11 +1,11 @@
-# 🌊⚡ ELEVAI
+# ⚡ ELEVAI
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:06b6d4&height=220&section=header&text=Elevai&fontSize=48&fontColor=00ffff&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,100:06b6d4&height=220&section=header&text=Elevai&fontSize=48&fontColor=ffffff&animation=fadeIn" />
 </p>
 
 <p align="center">
-  <strong>Clarity. Intelligence. Elevated.</strong>
+  <strong>AI-assisted career direction. Clearer paths, better decisions.</strong>
 </p>
 
 ---
@@ -14,52 +14,52 @@
 
 <p align="center">
   <a href="https://elevai.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/ENTER-ELEVAI-06b6d4?style=for-the-badge&logo=vercel&logoColor=black"/>
+    <img src="https://img.shields.io/badge/EXPLORE-ELEVAI-06b6d4?style=for-the-badge&logo=vercel&logoColor=black"/>
   </a>
 </p>
 
 ---
 
-## 🧠 WHAT IS ELEVAI
+## 🧠 WHAT THIS IS
 
-**Elevai** is built around a simple idea:
+**Elevai** is an AI-powered career guidance platform.
 
-Make interaction with intelligence  
-feel **clear, fluid, and elevated**.
+Not a magic solution.  
+Not a one-click answer generator.  
 
-Not overwhelming.  
-Not mechanical.  
+Just a system that helps you:
+- think clearer  
+- explore better options  
+- move forward with direction  
 
-Just something that *works naturally*.
+It’s built to assist — not to decide for you.
 
 ---
 
-## ✨ EXPERIENCE
+## ✨ WHAT YOU CAN DO
 
-- ⚡ **Fast interactions** — no friction, no delay  
-- 🌊 **Fluid interface** — smooth, responsive flow  
-- 🧠 **Clarity-first design** — focus on understanding  
-- 🎯 **Purpose-driven UI** — nothing without intent  
+- 🧭 **Explore career paths** based on interests  
+- 🤖 **Get AI-assisted insights**  
+- 📈 **Understand possible directions**  
+- 🪜 **Take small, practical next steps**  
 
-Everything is designed to feel:
-- intuitive  
-- lightweight  
-- precise  
+No noise. No fake promises.  
+Just usable guidance.
 
 ---
 
 ## 🎨 DESIGN LANGUAGE
 
 <p align="center">
-  <code>Aqua Blue × Black × Neon Light</code>
+  <code>Aqua Blue × Black × Neon</code>
 </p>
 
-- 🌊 Aqua → clarity, intelligence, flow  
-- ⚫ Black → depth, contrast  
-- ⚡ Neon → focus, energy, signal  
+- 🌊 Aqua Blue → clarity, intelligence  
+- ⚫ Black → depth, focus  
+- ⚡ Neon accents → energy, motion  
 
-The interface uses contrast and glow  
-to guide attention — not distract it.
+The interface leans into a **low-light, high-focus environment** —  
+built for thinking, not distraction.
 
 ---
 
@@ -76,7 +76,7 @@ to guide attention — not distract it.
 ```bash
 .
 ├── components/   # UI building blocks
-├── pages/        # routes
+├── pages/        # routes & views
 ├── styles/       # styling system
-├── utils/        # helpers
+├── utils/        # helpers & logic
 └── public/       # assets
